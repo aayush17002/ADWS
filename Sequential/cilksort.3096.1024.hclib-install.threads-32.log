@@ -1,0 +1,60 @@
+
+-----
+mkdir timedrun fake
+
+-----
+---------HCLIB_RUNTIME_INFO-----------
+>>> HCLIB_WORKERS		= 32
+>>> HCLIB_HPT_FILE	= (null)
+>>> HCLIB_BIND_THREADS	= true
+WARNING: HCLIB_BIND_THREADS assign cores in round robin. E.g., setting HCLIB_WORKERS=12 on 2-socket node, each with 12 cores, will assign both HCUPC++ places on same socket
+>>> HCLIB_STATS		= 1
+----------------------------------------
+HCLIB_INFO: Round Robin Thread Binding
+CilkSort (1000000000): Passed = 1
+============================ MMTk Statistics Totals ============================
+time.mu	totalPushOutDeq	totalPushInDeq	totalStealsInDeq	tWork	tOverhead	tSearch
+94770.413	0	31	0	0.0563	0.0567	0.00000
+Total time: 99027.817 ms
+------------------------------ End MMTk Statistics -----------------------------
+===== TEST PASSED in 99027.817 msec =====
+
+-----
+mkdir timedrun fake
+
+-----
+---------HCLIB_RUNTIME_INFO-----------
+>>> HCLIB_WORKERS		= 32
+>>> HCLIB_HPT_FILE	= (null)
+>>> HCLIB_BIND_THREADS	= true
+WARNING: HCLIB_BIND_THREADS assign cores in round robin. E.g., setting HCLIB_WORKERS=12 on 2-socket node, each with 12 cores, will assign both HCUPC++ places on same socket
+>>> HCLIB_STATS		= 1
+----------------------------------------
+HCLIB_INFO: Round Robin Thread Binding
+CilkSort (1000000000): Passed = 1
+============================ MMTk Statistics Totals ============================
+time.mu	totalPushOutDeq	totalPushInDeq	totalStealsInDeq	tWork	tOverhead	tSearch
+94798.294	0	31	0	0.0564	0.0566	0.00000
+Total time: 99049.326 ms
+------------------------------ End MMTk Statistics -----------------------------
+===== TEST PASSED in 99049.326 msec =====
+
+-----
+mkdir timedrun fake
+
+-----
+---------HCLIB_RUNTIME_INFO-----------
+>>> HCLIB_WORKERS		= 32
+>>> HCLIB_HPT_FILE	= (null)
+>>> HCLIB_BIND_THREADS	= true
+WARNING: HCLIB_BIND_THREADS assign cores in round robin. E.g., setting HCLIB_WORKERS=12 on 2-socket node, each with 12 cores, will assign both HCUPC++ places on same socket
+>>> HCLIB_STATS		= 1
+----------------------------------------
+HCLIB_INFO: Round Robin Thread Binding
+CilkSort (1000000000): Passed = 1
+============================ MMTk Statistics Totals ============================
+time.mu	totalPushOutDeq	totalPushInDeq	totalStealsInDeq	tWork	tOverhead	tSearch
+94552.781	0	31	0	0.0563	0.0565	0.00000
+Total time: 98798.386 ms
+------------------------------ End MMTk Statistics -----------------------------
+===== TEST PASSED in 98798.386 msec =====

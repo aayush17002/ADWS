@@ -1,0 +1,198 @@
+
+-----
+mkdir timedrun fake
+
+-----
+---------HCLIB_RUNTIME_INFO-----------
+>>> HCLIB_WORKERS		= 24
+>>> HCLIB_HPT_FILE	= (null)
+>>> HCLIB_BIND_THREADS	= true
+WARNING: HCLIB_BIND_THREADS assign cores in round robin. E.g., setting HCLIB_WORKERS=12 on 2-socket node, each with 12 cores, will assign both HCUPC++ places on same socket
+>>> HCLIB_STATS		= 1
+----------------------------------------
+HCLIB_INFO: Round Robin Thread Binding
+Testing exp: -0.000000
+Input(case 0): nx=8192, ny=8192, nt=50
+Heat started...
+Heat ended...
+
+Heat Unbalanced
+ dx =  0.000192
+  dy =  0.000192
+  dt =  0.000000
+  Stability Value for explicit method must be > 0: 0.391234
+ Options: granularity = 8
+         nx          = 8192
+         ny          = 8192
+         nt          = 50
+============================ MMTk Statistics Totals ============================
+time.mu	totalPushOutDeq	totalPushInDeq	totalStealsInDeq	tWork	tOverhead	tSearch
+4692.119	0	52173	0	0.1464	0.1476	0.00000
+Total time: 7094.003 ms
+------------------------------ End MMTk Statistics -----------------------------
+===== TEST PASSED in 7094.003 msec =====
+
+-----
+mkdir timedrun fake
+
+-----
+---------HCLIB_RUNTIME_INFO-----------
+>>> HCLIB_WORKERS		= 24
+>>> HCLIB_HPT_FILE	= (null)
+>>> HCLIB_BIND_THREADS	= true
+WARNING: HCLIB_BIND_THREADS assign cores in round robin. E.g., setting HCLIB_WORKERS=12 on 2-socket node, each with 12 cores, will assign both HCUPC++ places on same socket
+>>> HCLIB_STATS		= 1
+----------------------------------------
+HCLIB_INFO: Round Robin Thread Binding
+Testing exp: -0.000000
+Input(case 0): nx=8192, ny=8192, nt=50
+Heat started...
+Heat ended...
+
+Heat Unbalanced
+ dx =  0.000192
+  dy =  0.000192
+  dt =  0.000000
+  Stability Value for explicit method must be > 0: 0.391234
+ Options: granularity = 8
+         nx          = 8192
+         ny          = 8192
+         nt          = 50
+============================ MMTk Statistics Totals ============================
+time.mu	totalPushOutDeq	totalPushInDeq	totalStealsInDeq	tWork	tOverhead	tSearch
+4693.304	0	52173	0	0.1462	0.1476	0.00000
+Total time: 7089.442 ms
+------------------------------ End MMTk Statistics -----------------------------
+===== TEST PASSED in 7089.442 msec =====
+
+-----
+mkdir timedrun fake
+
+-----
+---------HCLIB_RUNTIME_INFO-----------
+>>> HCLIB_WORKERS		= 24
+>>> HCLIB_HPT_FILE	= (null)
+>>> HCLIB_BIND_THREADS	= true
+WARNING: HCLIB_BIND_THREADS assign cores in round robin. E.g., setting HCLIB_WORKERS=12 on 2-socket node, each with 12 cores, will assign both HCUPC++ places on same socket
+>>> HCLIB_STATS		= 1
+----------------------------------------
+HCLIB_INFO: Round Robin Thread Binding
+Testing exp: -0.000000
+Input(case 0): nx=8192, ny=8192, nt=50
+Heat started...
+Heat ended...
+
+Heat Unbalanced
+ dx =  0.000192
+  dy =  0.000192
+  dt =  0.000000
+  Stability Value for explicit method must be > 0: 0.391234
+ Options: granularity = 8
+         nx          = 8192
+         ny          = 8192
+         nt          = 50
+============================ MMTk Statistics Totals ============================
+time.mu	totalPushOutDeq	totalPushInDeq	totalStealsInDeq	tWork	tOverhead	tSearch
+4697.028	0	52173	0	0.1464	0.1476	0.00000
+Total time: 7092.840 ms
+------------------------------ End MMTk Statistics -----------------------------
+===== TEST PASSED in 7092.840 msec =====
+
+-----
+mkdir timedrun fake
+
+-----
+---------HCLIB_RUNTIME_INFO-----------
+>>> HCLIB_WORKERS		= 24
+>>> HCLIB_HPT_FILE	= (null)
+>>> HCLIB_BIND_THREADS	= true
+WARNING: HCLIB_BIND_THREADS assign cores in round robin. E.g., setting HCLIB_WORKERS=12 on 2-socket node, each with 12 cores, will assign both HCUPC++ places on same socket
+>>> HCLIB_STATS		= 1
+----------------------------------------
+HCLIB_INFO: Round Robin Thread Binding
+Testing exp: -0.000000
+Input(case 0): nx=8192, ny=8192, nt=50
+Heat started...
+Heat ended...
+
+Heat Unbalanced
+ dx =  0.000192
+  dy =  0.000192
+  dt =  0.000000
+  Stability Value for explicit method must be > 0: 0.391234
+ Options: granularity = 8
+         nx          = 8192
+         ny          = 8192
+         nt          = 50
+============================ MMTk Statistics Totals ============================
+time.mu	totalPushOutDeq	totalPushInDeq	totalStealsInDeq	tWork	tOverhead	tSearch
+4705.181	0	52173	0	0.1473	0.1485	0.00000
+Total time: 7136.160 ms
+------------------------------ End MMTk Statistics -----------------------------
+===== TEST PASSED in 7136.160 msec =====
+
+-----
+mkdir timedrun fake
+
+-----
+---------HCLIB_RUNTIME_INFO-----------
+>>> HCLIB_WORKERS		= 24
+>>> HCLIB_HPT_FILE	= (null)
+>>> HCLIB_BIND_THREADS	= true
+WARNING: HCLIB_BIND_THREADS assign cores in round robin. E.g., setting HCLIB_WORKERS=12 on 2-socket node, each with 12 cores, will assign both HCUPC++ places on same socket
+>>> HCLIB_STATS		= 1
+----------------------------------------
+HCLIB_INFO: Round Robin Thread Binding
+Testing exp: -0.000000
+Input(case 0): nx=8192, ny=8192, nt=50
+Heat started...
+Heat ended...
+
+Heat Unbalanced
+ dx =  0.000192
+  dy =  0.000192
+  dt =  0.000000
+  Stability Value for explicit method must be > 0: 0.391234
+ Options: granularity = 8
+         nx          = 8192
+         ny          = 8192
+         nt          = 50
+============================ MMTk Statistics Totals ============================
+time.mu	totalPushOutDeq	totalPushInDeq	totalStealsInDeq	tWork	tOverhead	tSearch
+4682.191	0	52173	0	0.1461	0.1473	0.00000
+Total time: 7077.314 ms
+------------------------------ End MMTk Statistics -----------------------------
+===== TEST PASSED in 7077.314 msec =====
+
+-----
+mkdir timedrun fake
+
+-----
+---------HCLIB_RUNTIME_INFO-----------
+>>> HCLIB_WORKERS		= 24
+>>> HCLIB_HPT_FILE	= (null)
+>>> HCLIB_BIND_THREADS	= true
+WARNING: HCLIB_BIND_THREADS assign cores in round robin. E.g., setting HCLIB_WORKERS=12 on 2-socket node, each with 12 cores, will assign both HCUPC++ places on same socket
+>>> HCLIB_STATS		= 1
+----------------------------------------
+HCLIB_INFO: Round Robin Thread Binding
+Testing exp: -0.000000
+Input(case 0): nx=8192, ny=8192, nt=50
+Heat started...
+Heat ended...
+
+Heat Unbalanced
+ dx =  0.000192
+  dy =  0.000192
+  dt =  0.000000
+  Stability Value for explicit method must be > 0: 0.391234
+ Options: granularity = 8
+         nx          = 8192
+         ny          = 8192
+         nt          = 50
+============================ MMTk Statistics Totals ============================
+time.mu	totalPushOutDeq	totalPushInDeq	totalStealsInDeq	tWork	tOverhead	tSearch
+4689.172	0	52173	0	0.1462	0.1474	0.00000
+Total time: 7084.724 ms
+------------------------------ End MMTk Statistics -----------------------------
+===== TEST PASSED in 7084.724 msec =====

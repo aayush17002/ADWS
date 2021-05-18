@@ -1,0 +1,45 @@
+
+-----
+mkdir timedrun fake
+
+-----
+---------HCLIB_RUNTIME_INFO-----------
+>>> HCLIB_WORKERS		= 4
+>>> HCLIB_HPT_FILE	= (null)
+>>> HCLIB_BIND_THREADS	= true
+WARNING: HCLIB_BIND_THREADS assign cores in round robin. E.g., setting HCLIB_WORKERS=12 on 2-socket node, each with 12 cores, will assign both HCUPC++ places on same socket
+>>> HCLIB_STATS		= 1
+----------------------------------------
+HCLIB_INFO: Round Robin Thread Binding
+Starting Fib(15)..
+left = 4.000000, right = 0.000000, pointer = 4.000000, weight = 2.0
+left = 4.000000, right = 1.333333, pointer = 4.000000, weight = 1.0
+left = 4.000000, right = 3.111111, pointer = 4.000000, weight = 2.0
+left = 4.000000, right = 3.407407, pointer = 4.000000, weight = 1.0
+left = 4.000000, right = 3.802469, pointer = 4.000000, weight = 2.0
+left = 4.000000, right = 3.868313, pointer = 4.000000, weight = 1.0
+left = 4.000000, right = 3.802469, pointer = 4.000000, weight = 2.0
+left = 4.000000, right = 3.868313, pointer = 4.000000, weight = 1.0
+left = 4.000000, right = 3.956104, pointer = 4.000000, weight = 2.0
+left = 4.000000, right = 3.970736, pointer = 4.000000, weight = 1.0
+left = 4.000000, right = 3.111111, pointer = 4.000000, weight = 2.0
+left = 4.000000, right = 3.407407, pointer = 4.000000, weight = 1.0
+left = 4.000000, right = 3.802469, pointer = 4.000000, weight = 2.0
+left = 4.000000, right = 3.868313, pointer = 4.000000, weight = 1.0
+left = 4.000000, right = 3.956104, pointer = 4.000000, weight = 2.0
+left = 4.000000, right = 3.970736, pointer = 4.000000, weight = 1.0
+left = 4.000000, right = 3.802469, pointer = 4.000000, weight = 2.0
+left = 4.000000, right = 3.868313, pointer = 4.000000, weight = 1.0
+left = 4.000000, right = 3.956104, pointer = 4.000000, weight = 2.0
+left = 4.000000, right = 3.970736, pointer = 4.000000, weight = 1.0
+left = 4.000000, right = 3.956104, pointer = 4.000000, weight = 2.0
+left = 4.000000, right = 3.970736, pointer = 4.000000, weight = 1.0
+left = 4.000000, right = 3.990245, pointer = 4.000000, weight = 2.0
+left = 4.000000, right = 3.993497, pointer = 4.000000, weight = 1.0
+Fib(15) = 610
+============================ MMTk Statistics Totals ============================
+time.mu	totalPushOutDeq	totalPushInDeq	totalStealsInDeq	tWork	tOverhead	tSearch
+0.226	0	0	0	0.0000	0.0000	0.00000
+Total time: 0.865 ms
+------------------------------ End MMTk Statistics -----------------------------
+===== TEST PASSED in 0.865 msec =====

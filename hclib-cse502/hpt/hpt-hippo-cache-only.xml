@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE HPT SYSTEM "hpt.dtd">
+
+<HPT version="0.1" info="an HPT for Hippo, 4 NUMA domains">
+    <place num="1" type="mem">
+        <place num="8" type="cache"> <!-- 8 L3 cache below RAM -->
+            <worker num="4"/> <!-- 4 workers per L3 -->
+        </place>
+    </place>
+</HPT>
